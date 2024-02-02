@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en"> 
+  <head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/433/433087.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600,700,800,900,900i%7CPT+Serif:400,700">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}</style>
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="page"><a class="section section-banner d-none d-xl-flex" ></a>
+      <!-- Page Header-->
+      <header class="section page-header">
+        <!-- RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!-- RD Navbar Panel-->
+                <div class="rd-navbar-panel"> 
+                  <!-- RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!-- RD Navbar Brand-->
+                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light" src="images/CASA JUANAN LOGO.png" width="100" height="2" /></a></div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <!-- RD Navbar Nav-->
+                    <ul class="rd-navbar-nav">
+                      </li>
+                      <li class="rd-nav-item"><a href="#about-section">ABOUT US</a></li>
+                      <li class="rd-nav-item"><a href="#bestsellers-section">OUR BESTSELLERS</a></li>
+                      <li class="rd-nav-item"><a href="#projects-section">OUR PROJECTS</a></li>
+                      <li class="rd-nav-item"><a href="#ratings-section">RATINGS</a></li>
+                    </ul>
+                  </div>
+                </div><a class="button button-white button-sm" a href="#book-section">book now</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- Swiper-->
+      <section class="section section-lg section-main-bunner section-main-bunner-filter text-center">
+        <div class="main-bunner-img"> <img  src="https://columnasblancas.es/wp-content/uploads/la-exquisita-gastronomia-sevillana-sabores-autenticos-que-debes-probar.jpg"></div>
+        <div class="main-bunner-inner">
+          <div class="container">
+            <div class="box-default">
+              <h1 class="box-default-title" >Welcome</h1>
+              <h2>Go to "Our Projects" and don't doubt to click to listen our room music</h2>
+              <div class="box-default-decor"></div>
+              <p class="big box-default-text"><h4 section id="book-section">Our restaurant offers full-service dining with breathtaking views seen from our indoor covered patio and our outdoor sundeck.</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bg-gray-1">
+        <section class="section-transform-top">
+          <div class="container">
+            <div class="box-booking">
+              <form class="rd-form rd-mailform booking-form">
+                <div>
+                  <p class="booking-title" >Name</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-name" type="text" name="name" data-constraints="@Required">
+                    <label class="form-label" for="booking-name">Your name</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Phone</p>
+                  <div class="form-wrap">
+                    <input class="form-input" id="booking-phone" type="text" name="phone" data-constraints="@Numeric">
+                    <label class="form-label" for="booking-phone">Your phone number</label>
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">Date</p>
+                  <div class="form-wrap form-wrap-icon"><span class="icon mdi mdi-calendar-text"></span>
+                    <input class="form-input" id="booking-date" type="text" name="date" data-constraints="@Required" data-time-picker="date">
+                  </div>
+                </div>
+                <div>
+                  <p class="booking-title">no. of people</p>
+                  <div class="form-wrap">
+                    <select data-placeholder="2">
+                      <option label="placeholder"></option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                    </select>
+                  </div>
+                </div>
+                <div>
+                  <button class="button button-lg button-gray-600" section id="about-section" type="submit">Check availability</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="section section-lg section-inset-1 bg-gray-1 pt-lg-0">
+          <div class="container" >
+            <div class="row row-50 justify-content-xl-between align-items-lg-center">
+              <div class="col-lg-6 wow fadeInLeft">
+                <div class="box-image"><img /><img src="https://th.bing.com/th/id/OIG3.gLdHhBxa9uqBCm6uoFi1?w=270&h=270&c=6&r=0&o=5&pid=ImgGn" alt="" width="341" height="391"/>
+                </div>
+              </div>
+              <div class="col-lg-6 col-xl-5 wow fadeInRight" >
+                <h2 >About Us</h2>
+                <p>Casa Juanan is a family owned and operated Restaurant in Sevilla who offers a combination of  authentic  Sevillian food.</p>
+                <p section id="bestsellers-section">We will make sure you are served the most authentic and fresh Sevillian dishes, while offering the best customer service. Our kitchen is committed to providing our guests with the best recipes from our land.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- Featured Offers-->
+      <section class="section section-lg bg-default">
+        <div class="container">
+          <div class="row justify-content-center text-center">
+            <div class="col-md-9 col-lg-7 wow-outer">
+              <div class="wow slideInDown" >
+                <h2>Our Bestsellers</h2>
+                <p class="text-opacity-80">Here you can find some of our most best-selling dishes</p>
+              </div>
+            </div>
+          </div>
+          <div class="row row-20 row-lg-30">
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="https://media.istockphoto.com/id/510244381/es/foto/t%C3%ADpico-de-pescados-y-mariscos-paella-espa%C3%B1ola.jpg?s=612x612&w=0&k=20&c=2LnZ7Pk7LVZdlaJVs0bbVQ-CgrlWwbKoOTUE2B5TqdA=" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Paella de Marisco</a></h4>
+                    <p class="big">18€</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="https://as2.ftcdn.net/v2/jpg/04/11/19/65/1000_F_411196521_x7ZkjdggiUd8kEqQtLQBVMjbJLBLb5cO.jpg" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Pescaito Frito Variado</a></h4>
+                    <p class="big">14€</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow-outer">
+              <div class="wow fadeInUp">
+                <div class="product-featured">
+                  <div class="product-featured-figure"><img src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/EVPUQJZBTJBOXOVC6VGBY5LVDU.jpg" alt="" width="370" height="395"/>
+                    <div class="product-featured-button"><a class="button button-primary" href="#">order now</a></div>
+                  </div>
+                  <div class="product-featured-caption">
+                    <h4><a class="product-featured-title" href="#">Chuletón</a></h4>
+                    <p class="big">12€</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-lg bg-gray-1">
+        <div class="container">
+          <h2 class="text-center">Our Restaurant Menu</h2>
+          <div class="row">
+            <div class="col-12">
+              <div class="tabs-custom tabs-horizontal tabs-classic" id="tabs-1">
+                <ul class="nav nav-tabs nav-tabs-classic">
+                  <li class="nav-item" role="presentation"><a class="nav-link active" href="#tabs-1-1" data-toggle="tab">mains</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-toggle="tab">Desserts</a></li>
+                  <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-toggle="tab">drinks</a></li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="tabs-1-1">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Ensaladilla fresca con ventresca de atun</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>
+                            Creamy Russian salad accompanied by a few pieces of tuna belly and salmon roe.</p>
+                            <p class="event-time">6.00€</p>
+                          </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Pescaito Frito Variado</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Crispy and golden portions of fresh fish accompanied by a few pieces of lemon</p>
+                          <p class="event-time">6.00€</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Chuleton</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>
+                            Juicy premium beef steak, grilled to achieve a caramelized exterior and a tender, flavorful interior accompanied by French fries</p>
+                            <p class="event-time">11.00€</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Paella de Marisco</a></h4>
+                        <div class="event-item-modern-text">
+                          <p section id="projects-section">A feast of bomb rice cooked to perfection with fresh seafood, saffron aioli and an explosion of Mediterranean flavors in every bite.
+                          </p>
+                          <p class="event-time">18€</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+               
+              
+                  <div class="tab-pane fade" id="tabs-1-2">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Tarta de queso</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Delight yourself with our irresistible cheesecake, with a crunchy base, soft and creamy filling.</p>
+                          <p class="event-time">5.50€</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Coulant de chocolate</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>
+                            An exquisite cake with a melted hot chocolate center that spills out at the first bite accompanied by a scoop of vanilla ice cream</p>
+                            <p class="event-time">5.00€</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Sorbete de limon</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>Our lemon sorbet is a citrus explosion that awakens the palate with its authentic mix of lemon juice and champagne</p>
+                          <p class="event-time">4.00€</p>
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Torrija</a></h4>
+                        <div class="event-item-modern-text">
+                          <p>A delight that combines the softness of brioche bread soaked in a mixture of milk and vanilla, caramelized to perfection. Served with a touch of cinnamon and accompanied by vanilla ice cream for an unforgettable sweet experience.</p>
+                          <p class="event-time">6.50€</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="tabs-1-3">
+                    <div class="box-event-modern">
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Water bottle </a></h4>
+                        <p class="event-time">2.50€</p>
+                        <div class="event-item-modern-text">
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Soft Drinks</a></h4>
+                        <p class="event-time">3.00€</p>
+                        <div class="event-item-modern-text">
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Beer</a></h4>
+                        <p class="event-time">1.60€</p>
+                        <div class="event-item-modern-text">
+                        </div>
+                      </div>
+                      <div class="event-item-modern">
+                        <h4 class="event-item-modern-title">Wine</a></h4>
+                        <p class="event-time">5.00€</p>
+                        <div class="event-item-modern-text">
+                      
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div id="game" class="casaJuanan">
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2 >Our Projects </h2>
+                    <span></span>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <div class="col-md-4 padding_bottom">
+                 <div class="game_box">
+                    <!-- Video with Fancybox -->
+                    <h3>Video</h3>
+                    <iframe width="370px" height="295px" src="https://www.youtube.com/embed/i0axYav_0y4?si=rqIpB3qbxGAyr5Ed" title="YouTube video player" frameborder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <p>Here you can see the artistic process that our designers have followed to create the logo of our restaurant</p>
+                 </div>
+                 <div class="game">
+                 </div>
+              </div>
+              <div class="col-md-4 padding_bottom">
+                 <div class="game_box">
+                  <h3>Audio</h3>
+
+                 <div class="audio-container">
+                    <audio controls class="w-100">
+                        <source src="audios/BOSSA RECORTADA (FONDO VIDEO PRINCIPAL).mpeg" type="audio/mp4">
+                    </audio>
+                    <h4>Restaurant Song</h4>
+                    <p>Here you can heard the music that we use in our restaurant and that our clients like so much.</p>
+                </div>
+                </div>
+              </div>
+              <div class="col-md-4 padding_bottom">
+                 <div class="game_box">
+                  <h3 >Logo</h3>
+                    <img src="./images/CASA JUANAN LOGO.png" alt="" section id="ratings-section">
+                </div>
+                <div class="game" >
+              </div>
+              </div>
+
+              </div>
+           </div>
+        </div>
+      <section class="section">
+        <div class="row isotope-wrap">
+          <!-- Isotope Content-->
+        
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-lg bg-default">
+        <div class="container wow-outer">
+          <h2 class="text-center wow slideInDown">Ratings and Reviews</h2>
+          <!-- Owl Carousel-->
+          <div class="owl-carousel wow fadeInUp" data-items="1" data-md-items="2" data-lg-items="3" data-dots="true" data-nav="false" data-stage-padding="15" data-loop="false" data-margin="30" data-mouse-drag="false">
+            <div class="post-corporate"><a class="badge">Jul 02, 2019</a>
+              <h4 class="post-corporate-title">Yeray Herreria Oña</h4>
+              <div class="post-corporate-text">
+                <p>Estaba todo de locos</p>
+              </div></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge">Jul 12, 2019</a>
+              <h4 class="post-corporate-title">Dario Jose</h4>
+              <div class="post-corporate-text">
+                <p>Servicio excelente</p>
+              </div></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge">aug 02, 2019</a>
+              <h4 class="post-corporate-title">Jose Vazquez</h4>
+              <div class="post-corporate-text">
+                <p>Fui con mi parienta y salimos encantados, pd: baños muy recomendables para el postre</p>
+              </div></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge">Aug 15, 2019</a>
+              <h4 class="post-corporate-title">Miguel Angel Reyes</h4>
+              <div class="post-corporate-text">
+                <p>Comida Deliciosa</p>
+              </div></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge">Sep 15, 2019</a>
+              <h4 class="post-corporate-title">Tomas Moreno</h4>
+              <div class="post-corporate-text">
+                <p>Nice!!</p>
+              </div></span></a>
+            </div>
+            <div class="post-corporate"><a class="badge">Sep 28, 2019</a>
+              <h4 class="post-corporate-title">Manuel Jesus "Garri"</h4>
+              <div class="post-corporate-text">
+                <p>Repetire sin duda</p>
+              </div><a class="post-corporate-link"></a>
+            </div>
+           
+
+        
+          </div>
+        </div>
+      <!-- Page Footer-->
+      <footer class="section footer-minimal context-dark">
+        <div class="container wow-outer">
+          <div class="wow fadeIn">
+            <div class="row row-60">
+              <div class="col-12"><a href="index.html"><img src="images/CASA JUANAN LOGO.png" alt="" width="140" height="57" srcset="images/logo-default-280x113.png 2x"/></a></div>
+              </div>
+            </div>
+            <p class="rights"><span>&copy;&nbsp; </span><span class="copyright-year"></span><span>&nbsp;</span><span>Casa Juanan</span><span>.&nbsp;</span><span>All Rights Reserved.</span><span>&nbsp;</span></a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
